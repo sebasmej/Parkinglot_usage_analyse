@@ -82,6 +82,24 @@ To run the GUI script, execute `gui.py` with the following optional command-line
 - The system uses a local database stored on the Raspberry Pi.
 - If the database doesn't exist, it will be automatically created.
 
+### Detection Record Configuration
+
+- The detection record configuration (`n`) impacts the frame capture frequency (`f`). 
+- The frame capture frequency (`f`) is calculated based on the chosen detection record (`n`). For example, if `n = 2`, then `f = 15` minutes. Below is a table showing the available configurations:
+
+ Detection Record (n) | Frame Capture Frequency (f) |
+|-----------------------|------------------------------|
+| 2                     | 15     minutes               |
+| 3                     | 7.5    minutes               |
+| 4                     | 5      minutes               |
+| 5                     | 3.75   minutes               |
+| 6                     | 3      minutes               |
+| 7                     | 2.5    minutes               |
+| 8                     | 2.2    minutes               |
+| n                     | f = 15 minutes / (n-1)       |
+
+- Adjust the detection record (`n`) based on your requirements to optimize the system's performance.
+
 ## Mapping the Parking Lot
 
 - Mapping the parking lot allows the system to accurately detect and track vehicles in the parking lot. By defining bounding boxes over each parking spot and associating them with unique identifiers, the system can precisely determine the occupancy status of each spot.
