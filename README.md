@@ -7,6 +7,9 @@ The system utilizes object detection to analyze the occupancy of a bicycle and m
 
 Additionally, a graphical user interface (GUI) is provided for visualizing the derived results of the main analysis. The GUI, implemented in the `GUI` folder, includes a `gui.py` file that queries the database, performs a simple data analysis of occupancy, and displays the results on a local UI. The project aims to provide a practical solution for monitoring parking lot usage and analyzing occupancy patterns.
 
+**Figure 1. Parking Lot Analysis Pipeline**
+![Codebase Pipeline](images/codebase_pipeline.jpg)
+
 ## Features
 
 - Object detection using YOLOv5n6 model trained on a custom dataset for detecting bicycles and motorcycles.
