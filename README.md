@@ -110,7 +110,7 @@ To run the GUI script, execute `gui.py` with the following optional command-line
 - [Part 1: Model Selection and Training](TEL21GR3_Mejia_Sebastian_DokutT3100_ObjectDetectionParkingSpaceAnalysis.pdf)
 This document outlines the process of selecting object models, curating the training dataset, training the models, and evaluating their performance based on the training results.
 
-- [Part 2: Evaluation,Parameter Analysis and codebase development](TEL21GR3_Sebastian_Mejia_DokuT3200_ObjectDetectionParkingSpaceAnalysis.pdf)
+- [Part 2: Evaluation, Parameter Analysis and codebase development](TEL21GR3_Sebastian_Mejia_DokuT3200_ObjectDetectionParkingSpaceAnalysis.pdf)
 In this document, the selected models are evaluated using a real dataset extracted from the parking lot and manually labeled. The document also includes an analysis of object detection parameters, such as confidence threshold and IoU for non-maximum suppression. Additionally, it provides detailed insights into the codebase, explaining the functionality of each module and outlining future improvements for the project.
 
 ## Mapping the Parking Lot
