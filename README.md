@@ -105,6 +105,14 @@ To run the GUI script, execute `gui.py` with the following optional command-line
 
 - Adjust the detection record (`n`) based on your requirements to optimize the system's performance.
 
+### Project Documentation
+
+- [Part 1: Model Selection and Training](TEL21GR3_Mejia_Sebastian_DokutT3100_ObjectDetectionParkingSpaceAnalysis.pdf)
+This document outlines the process of selecting object models, curating the training dataset, training the models, and evaluating their performance based on the training results.
+
+- [Part 2: Evaluation and Parameter Analysis](TEL21GR3_Sebastian_Mejia_DokutT3200_ObjectDetectionParkingSpaceAnalysis.pdf)
+In this document, the selected models are evaluated using a real dataset extracted from the parking lot and manually labeled. The document also includes an analysis of object detection parameters, such as confidence threshold and IoU for non-maximum suppression. Additionally, it provides detailed insights into the codebase, explaining the functionality of each module and outlining future improvements for the project.
+
 ## Mapping the Parking Lot
 
 - Mapping the parking lot allows the system to accurately detect and track vehicles in the parking lot. By defining bounding boxes over each parking spot and associating them with unique identifiers, the system can precisely determine the occupancy status of each spot.
@@ -137,11 +145,3 @@ A2 0.0854166666666667 0.413888888888889 0.0260416666666667 0.0462962962962963
                                   ...
 B1 0.1854166666666667 0.313888888888889 0.1260416666666667 0.1462962962962963
                                   ...
-
-## Project Documentation
-
-- [Part 1: Model Selection and Training](documentation/part1_documentation.pdf)
-This document outlines the process of selecting object models, curating the training dataset, training the models, and evaluating their performance based on the training results.
-
-- [Part 2: Evaluation and Parameter Analysis](documentation/part2_documentation.pdf)
-In this document, the selected models are evaluated using a real dataset extracted from the parking lot and manually labeled. The document also includes an analysis of object detection parameters, such as confidence threshold and IoU for non-maximum suppression. Additionally, it provides detailed insights into the codebase, explaining the functionality of each module and outlining future improvements for the project.
