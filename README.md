@@ -71,9 +71,16 @@ The program runs continuously, repeating the process of taking photos, preproces
 
 To visualize the data collected and analyzed by the main program, use the `gui.py` script. This script queries the database every 15 minutes, performs a data analysis of occupancy, and displays the information in a local UI.
 
-To run the GUI script, execute `gui.py` with the following optional command-line argument:
-
-- **-database \<path>**: Path to the database file (`.db`). Default: the local database created by the main program.
+To run the GUI script:
+- navigate to the GUI folder:
+   ```
+   cd your-repository-name/scr/GUI 
+- Execute the gui.py file
+  ```
+  python gui.py
+The database path is hardcoded, to choose a different database:
+- Go to the src/database folder and open the database.py skript
+- Inside the skript change the global variable db_file_path with the desire database path in .db format
 
 ## Aditional Information
 
